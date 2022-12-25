@@ -37,7 +37,7 @@
 /**********************************/
 /***** Layout & Section Title *****/
 /**********************************/
-.container {
+.container1 {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -46,30 +46,30 @@
 }
 
 @media (min-width: 576px) {
-    .container {
+    .container1 {
         max-width: 540px;
     }
 }
 
 @media (min-width: 768px) {
-    .container {
+    .container1 {
         max-width: 720px;
     }
 }
 
 @media (min-width: 992px) {
-    .container {
+    .container1 {
         max-width: 960px;
     }
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .container1 {
         max-width: 1140px;
     }
 }
 
-.row {
+.row1 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -78,7 +78,7 @@
     margin-left: -15px;
 }
 
-.column {
+.column1 {
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -89,7 +89,7 @@
 }
 
 @media (min-width: 576px) {
-    .column {
+    .column1 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
@@ -97,7 +97,7 @@
 }
 
 @media (min-width: 768px) {
-    .column {
+    .column1 {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
@@ -105,20 +105,20 @@
 }
 
 @media (min-width: 992px) {
-    .column {
+    .column1 {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
     }
 }
 
-.section-title {
+.section-title1 {
     width: 100%;
     text-align: center;
     padding: 45px 0 30px 0;
 }
 
-.section-title::after {
+.section-title1::after {
     position: absolute;
     content: "";
     width: 50px;
@@ -127,7 +127,7 @@
     background: #353535;
 }
 
-.section-title h1 {
+.section-title1 h1 {
     color: #353535;
     font-size: 50px;
     letter-spacing: 5px;
@@ -135,14 +135,14 @@
 }
 
 @media(max-width: 767.98px) {
-    .section-title h1 {
+    .section-title1 h1 {
         font-size: 40px;
         letter-spacing: 3px;
     }
 }
 
 @media(max-width: 567.98px) {
-    .section-title h1 {
+    .section-title1 h1 {
         font-size: 30px;
         letter-spacing: 2px;
     }
@@ -153,41 +153,41 @@
 /**********************************/
 /********** Team #1 Style *********/
 /**********************************/
-.team-1 {
+.team {
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.team-1 .team-img {
+.team .team-img {
     overflow: hidden;
 }
 
-.team-1 .team-img img {
+.team .team-img img {
     width: 100%;
     height: auto;
     transition: all .3s;
 }
 
-.team-1:hover .team-img img {
+.team:hover .team-img img {
     transform: scale(1.2);
 }
 
-.team-1 .team-content {
+.team .team-content {
     padding: 20px;
 }
 
-.team-1 .team-content h2 {
+.team .team-content h2 {
     font-size: 25px;
     font-weight: 400;
     letter-spacing: 2px;
 }
 
-.team-1 .team-content h3 {
+.team .team-content h3 {
     font-size: 16px;
     font-weight: 300;
 }
 
-.team-1 .team-content h4 {
+.team .team-content h4 {
     font-size: 16px;
     font-weight: 300;
     font-style: italic;
@@ -195,20 +195,20 @@
     margin-bottom: 25px;
 }
 
-.team-1 .team-content p {
+.team .team-content p {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
 }
 
-.team-1 .team-social {
+.team .team-social {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     font-size: 0;
 }
 
-.team-1 .team-social a {
+.team .team-social a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -221,31 +221,31 @@
     transition: all .3s;
 }
 
-.team-1 .team-social a.social-tw {
+.team .team-social a.social-tw {
     background: #00acee;
 }
 
-.team-1 .team-social a.social-fb {
+.team .team-social a.social-fb {
     background: #3b5998;
 }
 
-.team-1 .team-social a.social-li {
+.team .team-social a.social-li {
     background: #0e76a8;
 }
 
-.team-1 .team-social a.social-in {
+.team .team-social a.social-in {
     background: #3f729b;
 }
 
-.team-1 .team-social a.social-yt {
+.team .team-social a.social-yt {
     background: #c4302b;
 }
 
-.team-1 .team-social a:last-child {
+.team .team-social a:last-child {
     margin-right: 0;
 }
 
-.team-1 .team-social a:hover {
+.team .team-social a:hover {
     background: #222222;
 }
     </style>
@@ -253,6 +253,7 @@
 </head>
 
 <body class="archive post-type-archive post-type-archive-product woocommerce woocommerce-page with_aside aside_right layout-full-width nice-scroll-on mobile-tb-left button-flat if-overlay if-border-hide header-classic minimalist-header sticky-header sticky-white ab-show subheader-both-center menuo-right menuo-no-borders footer-copy-center">
+   
             <div id="Subheader" style="padding:40px 0;">
                 <div class="container">
                     <div class="column one">
@@ -262,14 +263,14 @@
             </div>
         </div>
       <!-- Team #1 Start -->
-      <div class="container">
-        <div class="section-title">
+      <div class="container1">
+        <div class="section-title1">
             <h2>Our <a style="color: blue;">Team</a></h2>
             
         </div>
         <div class="row">
             <div class="column">
-                <div class="team-1">
+                <div class="team">
                     <div class="team-img">
                         <img src="img/team-1-1.png" alt="Team Image">
                     </div>
@@ -281,7 +282,7 @@
                 </div>
             </div>
             <div class="column">
-                <div class="team-1">
+                <div class="team">
                     <div class="team-img">
                         <img src="img/team-1-3.png" alt="Team Image">
                     </div>
@@ -293,7 +294,7 @@
                 </div>
             </div>
             <div class="column">
-                <div class="team-1">
+                <div class="team">
                     <div class="team-img">
                         <img src="img/team-1-2.png" alt="Team Image">
                     </div>
@@ -307,7 +308,7 @@
         </div> 
     </div>
     <!-- Team #1 End -->
-        
+      
     </div>
     <!-- JS -->
     <script src="../../js/jquery-3.6.0.min.js"></script>
